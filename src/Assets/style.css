@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 html, body {
@@ -29,5 +30,33 @@ html, body {
 
 .album-box:hover {
     background-color: rgba(0, 0, 0, 0.048);
+    border: none;
+    box-shadow: 3px 3px 10px 4px #88888893;
     cursor: pointer;
+}
+
+.forms-container {
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.add-album input {
+    margin-bottom: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    padding: 5px;
+}
+
+.add-album button {
+    margin-bottom: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    padding: 5px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.add-album button:hover {
+    box-shadow: 1px 1px 6px 4px #88888827;
 }
