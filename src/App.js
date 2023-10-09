@@ -92,7 +92,7 @@ function App() {
     })
 
     // Deleting album in server using API DELETE request method
-    fetch(`https://jsonplaceholder.typicode.com/albums/${id}`)
+    fetch(`https://jsonplaceholder.typicode.com/albums/${id}`, { method: 'DELETE' })
     .then((response) => response.json())
     .then((json) => console.log(json));
 
